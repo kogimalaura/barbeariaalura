@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 body{
     background-color: rgb(224, 231, 238);
     color: black;
     text-align: center;
+    font-family: "Nunito Sans", sans-serif;
 }
 
 h1 {
     text-align: center;
     background-color: rgb(202, 255, 224) ; 
-    font-family: "Jacquard 12 Charted", system-ui;
 }
 
 p{
