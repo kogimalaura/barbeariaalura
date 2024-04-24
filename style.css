@@ -7,6 +7,7 @@ body{
     color: black;
     text-align: center;
     font-family: "Nunito Sans", sans-serif;
+    border: 3px solid;
 }
 
 h1 {
