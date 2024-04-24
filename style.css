@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
+
 body{
-    background-color: aliceblue;
+    background-color: rgb(224, 231, 238);
     color: black;
     text-align: center;
 }
@@ -7,6 +9,7 @@ body{
 h1 {
     text-align: center;
     background-color: rgb(202, 255, 224) ; 
+    font-family: "Jacquard 12 Charted", system-ui;
 }
 
 p{
@@ -15,4 +18,4 @@ p{
 
 em strong{
         color: red;
-)
+}
