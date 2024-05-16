@@ -50,7 +50,7 @@ header{
     border: 2px solid #000000;
     border-radius: 10px;
     }
-    
+
     .produtos li:hover {
         border-color: #C78C19;
      }
@@ -79,7 +79,7 @@ header{
 
      footer{
         text-align: center;
-        background: url("bg.jpg");
+        background:black;
         padding: 40px 0;
      }
      
