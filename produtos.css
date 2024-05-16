@@ -50,6 +50,7 @@ header{
     border: 2px solid #000000;
     border-radius: 10px;
     }
+    
     .produtos li:hover {
         border-color: #C78C19;
      }
@@ -64,7 +65,8 @@ header{
      .produtos h2 {
         font-size: 30px;
         font-weight: bold;
-     }            
+     }        
+
      .produto-descricao {
                         font-size: 18px;
      }
@@ -74,7 +76,8 @@ header{
         font-weight: bold;
         margin-top: 10px;
      }
-     footer {
+
+     footer{
         text-align: center;
         background: url("bg.jpg");
         padding: 40px 0;
