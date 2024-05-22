@@ -1,25 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jacquard+12+Charted&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
 
-
 body{
-    background-color: rgb(224, 231, 238);
-    color: black;
+    background-color:rgb(51, 51, 51);
+    color: rgb(255, 255, 255);
+    border: solid;
+    border-color: rgb(0, 0, 0);
+    border-radius: 60px;
+    border-width: 10px;
     text-align: center;
-    font-family: "Nunito Sans", sans-serif;
-    border: 3px solid;
+    font-size: 25px;
 }
 
-h1 {
+    h1{
     text-align: center;
-    background-color: rgb(202, 255, 224) ; 
-
+    background-color: rgb(88, 88, 88);
+    font-size: 100px;
+    border: 10px solid;
+    border-color: black;
 }
 
-p{
-    text-align: center;
+    h2{
+    text-align: center; 
+    font-size: 100px;
 }
 
-em strong{
-        color: red;
+
+    p{
+    margin-left: 03%;
+ }  
+
+    em strong{
+    color: rgb(127, 69, 202);
+ }
+
+    #banner{
+width: 100%;
+ }
+
+    .imagembeneficios {
+    width: 50%;
+ }
+
+    .itens{
+font-style: italic;
+text-align: left;
+ }
+
+    .beneficios{
+padding: 20px;
+border-top: 10px black;
+border: 8px solid black;
+background: rgb(51, 51, 51);
+ }
+
+    ul{
+display: inline-block;
+vertical-align: top;
+width: 20%;
+margin-right: 15%;
+border: 8px solid black;
+line-height: 2;
+border-radius: 60px;
+font-size: 40px;
+ }
+ .conteudo-beneficios {
+    width: 640px;
+    margin: 0 auto;
+}
+
+.lista-beneficios {
+    width: 50%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.itens {
+    line-height: 1.5;
+}
+
+.itens:first-child {
+    font-weight: bold;
+}
+
+.itens:before {
+    content: "🟊";
+}
+
+.imagembeneficios {
+    width: 40%;
+    opacity: 1;
+    transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
+}
+
+.imagembeneficios:hover {
+    opacity: 0.3;
 }
