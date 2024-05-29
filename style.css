@@ -48,7 +48,7 @@ em strong {
 }
 
 .beneficios {
-    padding: 20px;
+    padding: 10px;
     border-top: 10px black;
     border: 8px solid black;
     background: rgb(51, 51, 51);
@@ -74,7 +74,7 @@ ul {
 }
 
 .lista-beneficios {
-    width: 50%;
+    width: 40%;
     display: inline-block;
     vertical-align: top;
 }
